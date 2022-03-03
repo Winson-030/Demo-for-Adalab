@@ -111,3 +111,53 @@ footer{
     position: fixed;
     bottom: 10px;
 }
+@media screen and (max-width:450px) {
+    header{
+
+        height: 50px ;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    header img {
+        position: absolute;
+        top:5px;
+        left: 30px;
+        height: 50px ;
+        width: 50px ;
+    }
+    li{
+        font-size: 20px;
+    }
+    aside{
+        font-size: 50px;
+        line-height: 200px;
+        padding-left: 30px;
+    }
+    aside iframe {
+        width: 100px;
+        height: auto;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    section p{
+        font-size:20px ;
+    }
+    section iframe{
+        flex: auto;
+        
+        flex-wrap: wrap;
+        width: 150px;
+        height:150px;
+        margin: 16px;
+        border: 1px solid #fff;
+        border-radius: 150px;
+    }
+   th,td{
+       font-size: 20px;
+   }
+    footer{
+        font-size: 25px;
+    }
+}
